@@ -47,3 +47,5 @@ $encodedVar = $Hashids->encode($myVar);
 
 $decodedVar = $Hashids->decode($encodedVar);
 ```
+
+For complete documentation check out [hashids.org/php](http://hashids.org/php/).
