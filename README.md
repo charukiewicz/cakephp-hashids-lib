@@ -2,11 +2,11 @@
 
 [Hashids](http://www.hashids.org) Library for [CakePHP](http://cakephp.org/) 2.x
 
-This is a modification of [FinalDevStudio's Hashids Component](https://raw.githubusercontent.com/FinalDevStudio/cakephp-hashids/) repackaged as a generic lib rather than a controller component.  This allows for access to the Hashids library in other libs and models rather than just controllers.  It also moves the configuration to your application's core.php file.
+This is a modification of [FinalDevStudio's Hashids Component](https://github.com/FinalDevStudio/cakephp-hashids/) repackaged as a generic lib rather than a controller component.  This allows for access to the Hashids library in other libs and models rather than just controllers.  It also moves the configuration to your application's core.php file.
 
 ## Installation
 
-First, get **Hashids.php** and **HashGenerator.php** from http://www.hashids.org/php/ and put them in your app's **Vendor/Hashids** folder.
+First, grab **Hashids.php** and **HashGenerator.php** from http://www.hashids.org/php/ and put them in your app's **Vendor/Hashids** folder.
 
 Next, put **HashidsUtility.php** into your **app/Lib** directory.
 
