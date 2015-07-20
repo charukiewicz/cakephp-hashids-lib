@@ -33,7 +33,7 @@ App::uses('HashidsUtility', 'Lib');
 Then in the body of your file, invoke the Hashids class
 
 ```php
-$Hashids = new Hashids();
+$Hashids = new HashidsUtility();
 ```
 
 You can then make calls to the encode and decode methods through this object.
